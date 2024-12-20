@@ -1,0 +1,99 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.app-main {
+  margin: 20px 0;
+}
+
+.benefits {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefits h2 {
+  color: #4CAF50;
+}
+
+.benefits ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.app-footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+#img-main {
+  height: auto; /* Change to auto for better responsiveness */
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  margin: 1em auto; /* Center the image */
+  display: block;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .app-header {
+      padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  .intro {
+      font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  .benefits {
+      padding: 15px; /* Reduce padding */
+  }
+
+  .benefits li {
+      font-size: 1em; /* Adjust font size */
+  }
+
+  .app-footer {
+      font-size: 0.8em; /* Adjust footer font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header {
+      padding: 10px; /* Further reduce padding */
+  }
+
+  .intro {
+      font-size: 0.9em; /* Further adjust font size */
+  }
+
+  .benefits {
+      padding: 10px; /* Further reduce padding */
+  }
+
+  .benefits li {
+      font-size: 0.9em; /* Further adjust font size */
+  }
+
+  .app-footer {
+      font-size: 0.7em; /* Further adjust footer font size */
+  }
+}
