@@ -1,6 +1,7 @@
 "# MERN-Expense-Tracker"  
 This is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, and Node.js) for tracking personal expenses.Through this expense tracking app, I want to showcase my full stack development skills and open doors of new opportunities for myself.
-LIVE WEBSITE :- https://expensetrack-1.onrender.com/
+
+*LIVE WEBSITE :- https://expensetrack-1.onrender.com/
 
 Technologies Used:
  Frontend:
