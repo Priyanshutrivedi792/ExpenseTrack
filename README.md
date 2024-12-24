@@ -4,7 +4,7 @@ This is a full-stack web application built using the MERN stack (MongoDB, Expres
 *LIVE WEBSITE :- https://expensetrack-1.onrender.com/
 
 Technologies Used:
- -Frontend:
+ - Frontend:
     - React: A JavaScript library for building user interfaces
     - Toastify: A lightweight JavaScript library for displaying toast notifications
     - Css : For the process of styling, designing & making it responsive
